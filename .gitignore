@@ -1,0 +1,76 @@
+# =========================
+# Build outputs
+# =========================
+bin/
+obj/
+
+# =========================
+# User-specific files
+# =========================
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+
+# =========================
+# Rider / JetBrains
+# =========================
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment / secrets
+# =========================
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+
+# =========================
+# Publishing
+# =========================
+publish/
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+
+# =========================
+# Test results
+# =========================
+TestResults/
+
+# =========================
+# Node (if frontend included)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Certificates
+# =========================
+*.pfx
+*.cer
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
